@@ -3,12 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		real lado
+		real dmaior
+		real dmenor
 		real a
-		escreva("Vamos cálcular a área do quadrado!!\n\n Qual o lado do quadrado? ")
-		leia (lado)
-		a = lado * lado
-		escreva ("A área do Quadrado é igual a ", a)
+		
+		escreva("Vamos cálcular a área do Losango\n\n Qual é a Diagonal maior? ")
+		leia (dmaior)
+		escreva("Qual é a Diagonal Menor? ")
+		leia (dmenor)
+		a = (dmaior * dmenor) /2
+		escreva("A área do Losango é igual a ", a)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -16,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 223; 
+ * @POSICAO-CURSOR = 151; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

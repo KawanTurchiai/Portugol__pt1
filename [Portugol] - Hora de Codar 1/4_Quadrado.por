@@ -3,10 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome
-		escreva("Qual o seu nome? ")
-		leia(nome)
-		escreva(nome)
+		real lado
+		real a
+		escreva("Vamos cálcular a área do quadrado!!\n\n Qual o lado do quadrado? ")
+		leia (lado)
+		a = lado * lado
+		escreva ("A área do Quadrado é igual a ", a)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -14,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 95; 
+ * @POSICAO-CURSOR = 223; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
